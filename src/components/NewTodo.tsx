@@ -15,6 +15,10 @@ const NewTodo = (props: { onAddTodo: (text: string) => void }) => {
     }
 
     props.onAddTodo(enteredText);
+
+    const inputElement = todoTextInputRef.current;
+    inputElement!.value = '';
+
   };
 
   return (
