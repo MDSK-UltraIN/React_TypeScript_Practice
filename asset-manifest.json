@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_TypeScript_Practice/static/css/main.8c80f4dd.css",
+    "main.js": "/React_TypeScript_Practice/static/js/main.dcd52a3a.js",
+    "index.html": "/React_TypeScript_Practice/index.html",
+    "main.8c80f4dd.css.map": "/React_TypeScript_Practice/static/css/main.8c80f4dd.css.map",
+    "main.dcd52a3a.js.map": "/React_TypeScript_Practice/static/js/main.dcd52a3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c80f4dd.css",
+    "static/js/main.dcd52a3a.js"
+  ]
+}
