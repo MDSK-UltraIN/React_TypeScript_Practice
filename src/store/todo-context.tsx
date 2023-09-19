@@ -17,8 +17,7 @@ interface TodoContextProviderProps {
   children: React.ReactNode;
 }
 
-const TodoContextProvider = (props: TodoContextProviderProps) => {
-  const { children } = props;
+const TodoContextProvider = ({ children }: TodoContextProviderProps) => {
 
   const [todoList, setTodoList] = useState<Todo[]>([]);
 
@@ -51,5 +50,4 @@ const TodoContextProvider = (props: TodoContextProviderProps) => {
   );
 };
 
-
-export default TodoContextProvider
+export default TodoContextProvider;
